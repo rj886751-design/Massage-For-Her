@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    /* ग्रेडिएंट बैकग्राउंड */
+    background: linear-gradient(to right, #FF4D6D, #8B5CF6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* स्क्रॉलिंग बंद करने के लिए */
+}
+
+/* कंटेंट को सेंटर में रखने के लिए */
+.container {
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+#yes {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+}
+
+#yes:hover {
+    transform: scale(1.1);
+}
+
+#btn {
+    background: #ffffff;
+    color: #333;
+}
+
+/* ऑडियो प्लेयर स्टाइल */
+.audio-container {
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+}
